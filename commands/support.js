@@ -29,15 +29,15 @@ module.exports = {
   run: async (client, interaction) => {
     try {
 
-      const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-      const githubLink = "https://github.com/GlaceYT";
-      const replitLink = "https://replit.com/@GlaceYT";
-      const youtubeLink = "https://www.youtube.com/@GlaceYT";
+      const supportServerLink = "https://discord.gg/bDNmBcZZ";
+      const githubLink = "https://github.com/NoCTRL";
+      const replitLink = "https://replit.com/@NoCTRLT";
+      const youtubeLink = "https://www.youtube.com/@NoCTRL";
         const embed = new EmbedBuilder()
             .setColor('#b300ff')
             .setAuthor({
               name: 'Support Server',
-              iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1230824519220985896/6280-2.gif?ex=6638ae28&is=66375ca8&hm=13e4a1b91a95b2934a39de1876e66c11711c7b30ac1a91c2a158f2f2ed1c2fc6&', 
+              iconURL: 'https://cdn.discordapp.com/attachments/1279033229151703042/1279453897856913530/Support.gif?ex=66d47fcc&is=66d32e4c&hm=5d4f1eddc382b86e287326109530a6d83a78148afe98fb946421f54649833c99&', 
               url: 'https://discord.gg/xQF9f9yUEM'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
